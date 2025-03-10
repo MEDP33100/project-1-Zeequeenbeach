@@ -1,1 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing a Song for Sixpence</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bonbon&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Just+Me+Again+Down+Here&family=Lexend+Deca:wght@100..900&family=Megrim&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Urbanist:ital@0;1&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="popup-overlay">
+        <div id="popup-content">
+            <h1>Sing a Song for Sixpence</h1>
+            <p>Scroll or click the up and down arrows to read the rhyme.</p>
+            <button id="btn">Begin</button>
+        </div>
+    </div>
+
+    <audio id="background-audio" loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="click-sound">
+        <source src="assets/click.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <div class="slider">
+        <section>
+            <div class="inner">
+                <img src="images/1.jpg" height="800" width="600">
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/2.jpg" height="500" width="300">
+                <div class="content">
+                    <p>Sing a song of sixpence,</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/3.jpg">
+                <div class="content">
+                    <p>A pocket full of rye.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/4.jpg">
+                <div class="content">
+                    <p>Four and twenty...</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/6.jpg">
+                <div class="content">
+                    <p>blackbirds</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/7.jpg" height="600" width="400">
+                <div class="content">
+                    <p>Baked in a pie.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/8.jpg">
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/9.jpg" height="600" width="400">
+                <div class="content">
+                    <p>When the pie was opened,</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/10.jpg">
+                <div class="content">
+                    <p>The birds began to sing</p>
+                    <p>Wasn't that a...</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/11.jpg">
+                <div class="content">
+                    <p>dainty dish</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/12.jpg">
+                <div class="content">
+                    <p>To set before the king?</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/14.jpg">
+                <div class="content">
+                    <p>The king was in...</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/15.jpg">
+                <div class="content">
+                    <p>his counting house,</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/16.jpg">
+                <div class="content">
+                    <p>Counting out his money.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="inner">
+                <img src="images/17.jpg">
+                <div class="content">
+                    <p>The queen was in...</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="inner">
+                <img src="images/19.jpg">
+                <div class="content">
+                    <p>the parlour,</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="inner">
+                <img src="images/20.jpg">
+                <div class="content">
+                    <p>Eating bread and honey.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="inner">
+                <img src="images/22.jpg" height="600" width="400">
+                <div class="content">
+                    <p>The maid was in...</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="inner">
+                <img src="images/23.jpg" height="600" width="400">
+                <div class="content">
+                    <p>the garden,</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="inner">
+                <img src="images/24.jpg">
+                <div class="content">
+                    <p>Hanging out the clothes,</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="inner">
+                <img src="images/25.jpg">
+                <div class="content">
+                    <p>When down came a blackbird</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="inner">
+                <img src="images/27.jpg">
+                <div class="content">
+                    <p>And pecked off her nose.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="inner">
+                <img src="images/28.jpg">
+                <div class="content">
+                    <p>There was such a commotion,</p>
+                    <p>That little Jenny wren</p>
+                    <p>Flew down into the garden,</p>
+                    <p>And put it back again.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="inner">
+                <img src="images/29.jpg">
+            </div>
+            <div class="end">
+                <p>The End</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+</body>
+
+</html>
