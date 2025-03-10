@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-- This project is an interactive adaptation of the popular nursery rhyme Sing a Song of Sixpence.
+- This project is an interactive adaptation of the popular nursery rhyme Sing a Song for Sixpence.
 - As users scroll, they can read the rhyme while a version of the melody plays in the background. Each illustration moves gently, pausing when you hover over it.
 
 ## Figma Design
