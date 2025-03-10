@@ -61,9 +61,7 @@ Resources
 - [Stack Overflow Autoplay Audio](https://stackoverflow.com/questions/74753188/is-there-a-way-to-autoplay-audio-in-html)
 - [Stack Overflow Media Queries](https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile)
 - [Geeks for Geeks CSS Floating Animation](https://www.geeksforgeeks.org/css-floating-animation/)
-- Acknowledge any resources, tutorials, or references you used to help complete the project.
 
 ## Future Enhancements
 
-- List any features you would’ve liked to add if given more time
 - I would add more animations to the images. I would want to animate what the line was describing in further detail.
