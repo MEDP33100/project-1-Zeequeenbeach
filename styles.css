@@ -127,3 +127,22 @@ img:hover {
     width: 40%;
     text-align: left;
 }
+
+@media screen and (max-width: 768px) {
+    .inner {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .content {
+        width: 90%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    img {
+        width: 80%;
+        max-width: 300px;
+    }
+}
